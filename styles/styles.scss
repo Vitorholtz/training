@@ -1,41 +1,5 @@
+@import "../globals/variables";
+@import "../globals/globals";
 @import "../components/header";
-
-// CORES
-$PrimaryGray: #212333;
-$White: #fff;
-$Red: #DB3232;
-
-// CONFIGURAÇÕES GERAIS
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    scroll-behavior: smooth;
-
-    &::before,&::after {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-}
-
-body {
-    overflow-x: hidden;
-    background-color: #0A0A0A;
-}
-
-html {
-    font-family: 'GlobotipoTextoRegular', sans-serif;
-    color: $PrimaryGray;
-}
-
-a,
-a:visited {
-    color: inherit;
-}
-
-img, span {
-    display: block;
-}
+@import "../components/greetings-container";
+@import "../components/illustration-container";
